@@ -379,6 +379,7 @@ class Flinku {
       }
 
       // 3. Clipboard-based deferred deep linking
+      /*
       try {
         final clipData = await Clipboard.getData(Clipboard.kTextPlain);
         final clipText = clipData?.text ?? '';
@@ -389,7 +390,7 @@ class Flinku {
           if (clipResult != null) return clipResult;
         }
       } catch (_) {}
-
+      */
       return null;
     } catch (_) {
       return null;
